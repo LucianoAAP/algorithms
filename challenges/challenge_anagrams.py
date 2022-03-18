@@ -14,7 +14,7 @@ def partition(list, low, high):
 
     for j in range(low, high):
         if list[j] <= pivot:
-            i = i + 1
+            i += 1
             list[i], list[j] = list[j], list[i]
     list[i + 1], list[high] = list[high], list[i + 1]
 
