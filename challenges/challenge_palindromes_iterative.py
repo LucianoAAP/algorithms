@@ -1,5 +1,5 @@
 def is_palindrome_iterative(word):
-    if word == '':
+    if word is None or word == '':
         return False
     reversed_word = ''
     for letter in word:
